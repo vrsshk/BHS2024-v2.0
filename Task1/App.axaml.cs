@@ -1,7 +1,7 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using GeometryApp.ViewModels; // Убедитесь, что это пространство имен указано
+using GeometryApp.ViewModels;
 
 namespace GeometryApp
 {
@@ -16,10 +16,9 @@ namespace GeometryApp
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                // Создаем экземпляр MainWindow и устанавливаем его DataContext
                 desktop.MainWindow = new MainWindow
                 {
-                    DataContext = new MainViewModel() // Убедитесь, что здесь используется правильный класс
+                    DataContext = new MainViewModel()
                 };
             }
 
