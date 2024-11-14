@@ -11,7 +11,7 @@ namespace GeometryApp
         {
             if (values[0] is double width)
             {
-                return (600 - width) / 2; // Используйте ширину Canvas
+                return (600 - width) / 2;
             }
             return 0;
         }
