@@ -11,7 +11,7 @@ namespace GeometryApp
         {
             if (values[0] is double height)
             {
-                return (400 - height) / 2; // Используйте высоту Canvas
+                return (400 - height) / 2;
             }
             return 0;
         }
