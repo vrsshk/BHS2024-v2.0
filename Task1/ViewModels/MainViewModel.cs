@@ -209,7 +209,7 @@ namespace GeometryApp.ViewModels
         }
     }
 
-    // Простая реализация RelayCommand
+    
     public class RelayCommand : ICommand
     {
         private readonly Action _execute;
